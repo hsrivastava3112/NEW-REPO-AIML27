@@ -9,3 +9,6 @@ const myPromise = new Promise((resolve, reject)=>{
         }
     },1000);
 });
+myPromise
+.then(result => console.log('Success:', result))
+.catch(result => console.log('Error:', error.message));
