@@ -1,0 +1,84 @@
+header files which needs to be used is <bits/stdc++.h>
+
+
+1 program .  
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string name;
+    int roll;
+    int age;
+    cin>>name>>roll>>age;
+    cout<<name<<roll<<age;
+}
+
+
+2. program 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    int x;
+    cin>>n>>x;
+    int bill=n*x;
+    if(10000<=bill<=99999)
+    {
+        cout<<"YES";
+    }
+    else
+    {
+        cout<<"NO";
+    }
+}
+
+
+
+ARRAY USER INPUT
+
+int N;
+cin>>N;
+
+
+
+incorrect 
+
+
+
+    int N;
+    cin>>N;
+    int arr[N];
+    for(int i=0;i<N;i++)
+    cin>>arr[i];
+    int Sum=arr[0]+arr[1];
+        
+    int Sum2=arr[n-2]+[n-1];
+        cout>>Sum2;
+        cout>>Sum;
+ }
+
+
+
+
+Array basic operation
+
+Accumulate
+int sum1=accumulate(array name,arr+length,intial point);///arr,arr+7,0
+
+* means multiple entry
+
+
+Sort 
+
+sort(arr_name, arr_name + length, comp_function);
+greater<int>
+
+count of element 
+int freq= count (arr, arr + len, element);
+location
+int index = find(arr, arr+len, element) - arr;
+
+Fixed presion
